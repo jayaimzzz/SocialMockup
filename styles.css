@@ -2,8 +2,13 @@ body {
     background-color: lightgrey;
     color: white;
     font-family: sans-serif;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+main {
+    background-color: grey;
+}
 header {
     background-color: #3b5998;
     width: 850px;
@@ -22,22 +27,35 @@ h2 {
     font-size: 16px;
     font-weight: 100;
 }
+h3 {
+    font-size: 14px;
+}
+h4 {color: black;}
+
+h6, h5 {color: #3b5998;}
+
+
 
 ul li {
-    display: inline-block;
+    display: inline;
+}
+#actionButtons li {
+    border: 1px solid black;
+    padding: 10px;
 }
 
 #actionButtons {
     float: right;
-    background-color: red;
-    margin-bottom: 200px;
+    background-color: white;
+    border: 2px solid black;
 }
 
-#pageLinks {
+#pageLinksBar {
     background-color: white;
     color: black;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 1px 0px;
     margin-top: 45px;
+    margin-bottom: 0pk;
 }
 
 #profilePic {
@@ -53,4 +71,44 @@ ul li {
     padding-bottom: 5px;
     margin-bottom: 0;
     border-bottom: 2px solid #3b5998;
+}
+#leftColumn1 {
+    /* background-color: green; */
+    width: 328px;
+    margin: 5px 5px 5px 0;
+    
+}
+#rightColumn1 {
+    /* background-color: brown; */
+    width: 512px;
+    margin: 5px 0 5px 5px;
+}
+.column {
+    float: left;
+}
+article {
+    background-color:white;
+    padding: 10px;
+    margin: 20px 0 0 0;
+}
+article h4{
+    border-top: 1 px, solid, grey;
+}
+
+.Post {
+    background-color: yellow;
+    padding: 10px;
+    margin: 20px 0 0 0;
+}
+#postUserName {
+    color: #3b5998;
+    font-weight: bold;
+}
+#postAction {
+    color: grey;
+    font-weight: lighter;
+}
+#postWhat {
+    color: #3b5998;
+    font-weight: lighter;
 }
