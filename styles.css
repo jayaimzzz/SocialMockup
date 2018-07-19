@@ -1,0 +1,56 @@
+body {
+    background-color: lightgrey;
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #3b5998;
+    width: 850px;
+    height: 400px;
+    margin: auto;
+}
+
+nav {}
+
+h1 {
+    font-size: 24px;
+    padding-top: 250px
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+ul li {
+    display: inline-block;
+}
+
+#actionButtons {
+    float: right;
+    background-color: red;
+    margin-bottom: 200px;
+}
+
+#pageLinks {
+    background-color: white;
+    color: black;
+    padding: 10px 0px 0px 0px;
+    margin-top: 45px;
+}
+
+#profilePic {
+    border: 1px solid black;
+    margin: 210px 10px 10px 10px;
+    width: 175px;
+    height: 175px;
+    background-color: #3b5998;
+    float: left
+}
+
+#Timeline {
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    border-bottom: 2px solid #3b5998;
+}
