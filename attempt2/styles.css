@@ -1,0 +1,112 @@
+body {
+    width: 850px;
+    margin: auto;
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #3B5998;
+    height: 400px;
+    border-bottom: 5px solid lightgrey;
+}
+
+#profilePic {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: #3B5998;
+    float: left;
+    /* position: absolute; */
+    /* top: 240px;
+    left: 10px; */
+    margin: 240px 10px 0 10px;
+}
+#yourPageName {
+    /* background-color: yellow; */
+    /* position: relative; */
+    /* top: 300px; */
+    /* left: 245px; */
+    font-size: 22px;
+    color: white;
+    padding-top: 280px;
+   }
+#website {
+    /* background-color: green; */
+    /* position: relative; */
+    /* top: 330px; */
+    /* left: 245px; */
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+main a {
+    color: #3B5998;
+}
+
+#actionButtons {
+    background-color: yellow;
+    /* position: absolute; */
+    margin-right: 10px;
+
+}
+#pageLinksBar {
+    background-color: white;
+    /* margin-top: 310px; */
+    /* padding-left: 150px; */
+    height: 25px;
+    /* padding-bottom: 1px; */
+    /* padding-top: 1px; */
+    padding-right: 400px;
+    margin-top: 50px;
+
+}
+button {
+    float: right;
+}
+.column{
+    float: left;
+}
+#leftColumn {
+    width: 328px;
+    float: left;
+}
+#rightColumn {
+    width: 512px;
+    float: right;
+}
+.about {
+    /* width: 328px; */
+    /* float: left; */
+    margin: 5px 0 5px 0;
+    background-color:white;
+}
+.post {
+    /* width: 512px; */
+    /* background-color: green; */
+    /* float: right; */
+    background-color: green;
+    margin: 5px 0 5px 0;
+}
+.aboutHeader {
+    background-color: #cacaca5b;
+    border-bottom: 2px solid lightgrey;
+    height: 25px;
+}
+h5 {
+    margin: 0;
+    padding: 5px;
+    color: #000000c7
+}
+#aboutYourPageBodyText {
+    padding: 0px 2px 5px 7px;
+    color: #3B5998;
+    font-weight: lighter;
+}
+.aboutFooter {
+    /* background-color: pink; */
+    border-top: 2px solid lightgrey;
+    /* height: 30px; */
+    padding: 10px;
+}
