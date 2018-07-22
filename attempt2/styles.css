@@ -60,7 +60,6 @@ main a {
     /* padding-top: 1px; */
     padding-right: 400px;
     margin-top: 50px;
-
 }
 button {
     float: right;
@@ -86,8 +85,9 @@ button {
     /* width: 512px; */
     /* background-color: green; */
     /* float: right; */
-    background-color: green;
+    background-color: white;
     margin: 5px 0 5px 0;
+    /* padding-bottom: 5px; */
 }
 .aboutHeader {
     background-color: #cacaca5b;
@@ -109,4 +109,73 @@ h5 {
     border-top: 2px solid lightgrey;
     /* height: 30px; */
     padding: 10px;
+}
+.profilePicIcon {
+    width: 40px;
+    height: 40px;
+    background-color: #3B5998;
+    margin: 5px;
+    float: left;
+    
+}
+.postHeaderText {
+    background-color: white;
+    width: 300px;
+    float: left;
+    margin-top: 15px;
+ 
+}
+.postHeader {
+    height: 50px;
+}
+.postBody {
+    margin-bottom: 5px;
+}
+#firstPostBody {
+    width: calc(100% - 10px);
+    height: 150px;
+    background-color: #3B5998;
+    margin: auto;
+    padding-bottom: 0;
+}
+.postFooter {
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background-color: #cacaca5b;
+
+}
+.likeButton {
+    /* position: relative;
+    left: 5px; */
+}
+.postButtons {
+    float: left;
+    border: none;
+    background-color: #cacaca5b;
+    color: #3B5998;
+    padding: 0;
+    margin: 5px;
+
+}
+
+.postUserName {
+    color: #3B5998;
+    font-weight: bold;
+}
+
+.postAction {
+    color: grey;
+    font-weight: lighter;
+}
+
+.postWhat {
+    color: #3B5998;
+    font-weight: ligher;
+}
+#secondPostBody {
+    margin: 5px 5px 10px 5px;
+    font-weight: lighter;
 }
